@@ -1,0 +1,39 @@
+ul {
+  margin-top: 5px;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+}
+
+li a {
+  color: black;
+  text-align: center;
+  padding: 16px;
+  display: block;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: black;
+  color: white;
+}
+
+.logo {
+  font-variant-caps: all-petite-caps;
+  font-size: x-large;
+  background-color: violet;
+  border-style: solid;
+  border-width: 2px;
+  border-right-color: rgb(109, 109, 252);
+  border-left-color: rgb(48, 48, 212);
+  border-top-color: rgb(22, 22, 139);
+  border-bottom-color: rgb(12, 12, 44);
+}
+
+img {
+  max-width: 140px;
+  display: block;
+  margin-left: 45%;
+}
